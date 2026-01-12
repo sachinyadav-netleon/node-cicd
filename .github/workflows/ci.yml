@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: |
           mkdir public
-          echo "<h1>Hello CD</h1>" > public/index.html
+          echo "<h1>test out this</h1>" > public/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
